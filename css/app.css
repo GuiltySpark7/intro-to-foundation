@@ -88,3 +88,17 @@ div.row#contact {
     background-color: #166E92;
     padding: 8rem 4rem 4rem 4rem;
 }
+
+div.row#contact label {
+    color: white;
+    font-family: 'Inconsolata';
+}
+
+div.row#contact h1 {
+    color: #F1EE7B;
+    font-family: 'Helvetica', arial;
+    font-weight: 800;
+    letter-spacing: .05rem;
+    font-size: 3rem;
+    text-align: center; 
+}
