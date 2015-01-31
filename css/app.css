@@ -77,6 +77,20 @@ div.row {
     background-color: #FF9E9D;
 }
 
+
+#committees a{
+    font-weight: 800;
+    letter-spacing: .03rem;
+}
+
+#committees h1 {
+    padding: 3rem 0;
+    font-family: 'Helvetica', arial;
+    font-weight: 800;
+    font-size: 3rem;
+    text-align: center;
+}
+
 /* Team styling */
 div.row#team {
     background-color: #DAD8A7;
