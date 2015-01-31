@@ -15,6 +15,56 @@ div.row {
     }
 }
 
+/* Top bar styling */
+.nav-logo {
+    height: 40px;
+    width: 40px;
+    border-radius: 5px;
+    margin-top: 2.5px;
+}
+
+.top-bar {
+    background: #fff;
+    height: 3.8125rem;
+    padding: .5rem;
+}
+
+.contain-to-grid {
+    background: #fff;
+}
+
+.top-bar {
+    /* Left side */
+    background: #fff;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.top-bar-section > ul > li > a {
+    font-weight: 600;
+    color: #000;
+}
+
+.top-bar-section li a:not(.button) {
+    /* Right side */
+    background: #fff !important;   
+}
+
+.top-bar-section li a:not(.button):hover {
+    background: #000 !important;   
+
+
+}
+
+.top-bar-section ul li.active > a {
+    background: gray !important;   
+}
+
+.top-bar-section ul li.active > a:hover {
+    background: yellow !important;   
+}
+
 /* Hero styling */
 #hero {
     padding: 12rem 5rem 5rem 5rem;
