@@ -55,37 +55,37 @@
     <div class="row fullvertical" id="team">
       <div class="large-12 columns">
         <h1>TEAM #NOSLEEP</h1>
-        <ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-4">
+        <ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-4" data-equalizer>
           <li>
-            <div class="teamcard panel radius">
+            <div class="teamcard panel radius" data-equalizer-watch>
               <img class="teampic" src="assets/teampics/timtong.png"></img>
               <h5>Tim Tong</h5>
               <p>All hail our glorious and somewhat photogenic president!</p>
             </div>
           </li>
           <li>
-            <div class="teamcard panel radius">
+            <div class="teamcard panel radius" data-equalizer-watch>
               <img class="teampic" src="assets/teampics/yvonechau.png"></img>
               <h5>Yvone Chau</h5>
               <p>The only one with normal picture here.</p>
             </div>
           </li>
           <li>
-            <div class="teamcard panel radius">
+            <div class="teamcard panel radius" data-equalizer-watch>
               <img class="teampic" src="assets/teampics/samlin.png"></img>
               <h5>Samuel Lin</h5>
               <p>:^)</p>
             </div>
           </li>
           <li>
-            <div class="teamcard panel radius">
+            <div class="teamcard panel radius" data-equalizer-watch>
               <img class="teampic" src="assets/teampics/irischan.png"></img>
               <h5>Iris Chan</h5>
               <p>Secretary fill-in for Betty Leung's abscence. Also has no eyes.</p>
             </div>
           </li>
           <li>
-            <div class="teamcard panel radius">
+            <div class="teamcard panel radius" data-equalizer-watch>
               <img class="teampic" src="assets/teampics/joarb.png"></img>
               <h5>Joanne Arboleda</h5>
               <p>The one in the front (... who be creepin' in the back?)</p>
@@ -101,7 +101,12 @@
     <script src="js/foundation.min.js"></script>
     <script src="js/foundation/foundation.equalizer.js"></script>
     <script>
-      $(document).foundation();
+      $(document).foundation({
+        equalizer: {
+          // Specify if Equalizer should make elements equal height once they become stacked.
+          equalize_on_stack: true
+        }
+      });
     </script>
   </body>
 </html>
